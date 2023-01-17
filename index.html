@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./Plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./BMI.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="div">
+    
+    <p class="bg-warning">Underweight:18.5</p>
+    <p class="bg-success">Normal:18.5-25</p>
+    <p class="bg-danger">overweight :25-30</p>
+    <p class="bg-primary">Obese:30-35</p>
+
+</div>
+
+<div class="div1   col-md-3 ">
+    <p class="bmi text-center">BMI CALCULATOR</p>
+    <p class="height ">Height (cm):</p>
+    <input class="input" id="input" type="text">
+    <p class="height ">Weight (KG):</p>
+    <input class="input" id="input1" type="text">
+    <button type="button" id="check" class="btn form-control mb-2" onclick="calculate()" >Check BMI</button>
+    <p id="note" class="bg-success"></p>
+</div>
+
+
+
+
+<div class="col-md-3 bg-danger py-5 offset-4 mt-5 ">
+     
+<p class="text-center square"> SQUARE ROOT CALCULATOR</p>
+ <input class="form-control" placeholder="INPUT" type="text" id="input2" name="">
+ <button type="button" onclick="convert1()" id="convert" class="btn form-control mt-3 btn-primary ">CONVERT</button>
+ <p id="note1"></p>
+</div>
+
+
+    <script src="./BMI.js"></script>
+    <script src="./Plugins/bootstrap/js/jquery.min.js"></script>
+    <script src="./Plugins/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

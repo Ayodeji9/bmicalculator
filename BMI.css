@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 10%;
+    float: right;
+}
+.div1{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.242);
+    box-shadow: 5px 5px 5px 5px ;
+}
+.input{
+    transform: translateY(-20px);
+    margin-top: 5px;
+}
+.bmi{
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn{
+    background-color:rgba(218, 165, 32, 0.567);
+    font-weight: 700;
+}
+.square{
+    font-size: 30px;
+    font-weight: 700;
+}
